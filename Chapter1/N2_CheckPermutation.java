@@ -21,6 +21,8 @@ public class N2_CheckPermutation {
     
     // checking with character count
     static boolean isPermuteCount(String input1, String input2) {
+        // also need to check for string lengths
+        
         // assuming simple ascii 128 characters
         int[] array1 = new int[128];
         
